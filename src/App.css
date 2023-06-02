@@ -161,11 +161,14 @@ a:hover {
 }
 
 .field:nth-child(2) {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .field:nth-child(3) {
-	margin-top: 20px;
+	margin-top: 10px;
+}
+.field:nth-child(4) {
+	margin-top: 10px;
 }
 
 .field span {

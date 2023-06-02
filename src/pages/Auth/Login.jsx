@@ -3,13 +3,15 @@ import Layout from "../../components/Layout/Layout"
 import SVG from "../../components/Layout/SVG"
 
 const Login = () => {
+	const handleSubmit = (e) => {}
+
 	return (
 		<>
 			<Layout title={"Login || TodoApp"}>
 				<div className="container login-container">
 					<div className="content">
 						<div className="text text-center">Login</div>
-						<form action="/login" method="post">
+						<form action="/login" method="post" onSubmit={handleSubmit}>
 							<div className="field">
 								{/* <span className="bx bxs-envelope" /> */}
 								<input type="email" placeholder="Email" name="useremail" required autoComplete="off" />
