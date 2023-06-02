@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* #9979AD */
+/* #6A3787 */
+
+/* #823051 */
+
+body {
+	height: 100vh;
+	background: #9979ad !important;
+}
+
+/* Home Start */
+
+.navbar-brand h2 {
+	color: white;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+#logo {
+	text-decoration: none;
+	color: #fff;
+	font-size: 5vh;
+	font-weight: bold;
+}
+
+.svg {
+	position: absolute;
+	top: 0;
+	z-index: -100;
+	width: 100%;
+}
+.hero {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	padding: 1.5em;
+	box-sizing: border-box;
+	color: #fff;
+	background-size: cover;
+}
+
+.home {
+	margin-top: 15vmax;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cta-btn {
+	width: 100%;
+	padding: 1%;
+	/* background-color: yellow; */
+}
+.cta-btn .btn {
+	margin: 5px;
+	width: 15vmax;
+}
+
+.btn {
+	padding: 1% !important;
+	font-size: 25px !important;
+}
+
+.hero-title {
+	width: 100%;
+	margin-bottom: 0.2em;
+	font-size: 7vh !important;
+	font-weight: bold;
+	line-height: 0.9;
+}
+
+@media only screen and (min-width: 32em) {
+	.hero-title {
+		font-size: 8vh;
+	}
+	.btn {
+		font-size: 20px !important;
+	}
+}
+
+.button {
+	padding: 0.5em 0.67em;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 0.1em solid white;
+	margin: 1vmax;
+}
+
+.button-white {
+	color: #673583;
+	background-color: white;
+}
+
+.button-white:hover {
+	color: white;
+	background-color: #673583;
+}
+
+.button-dark {
+	color: white;
+	background-color: #673583;
+}
+.button-dark:hover {
+	color: #443947;
+	background-color: white;
+}
+/* Home End*/
