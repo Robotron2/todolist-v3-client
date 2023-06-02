@@ -12,6 +12,8 @@ const Layout = ({ children, title, description, keywords, author }) => {
 				<meta name="description" content={description} />
 				<meta name="keywords" content={keywords} />
 				<meta name="author" content={author} />
+				<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
 				<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossOrigin="anonymous" />
 
 				<title>{title}</title>

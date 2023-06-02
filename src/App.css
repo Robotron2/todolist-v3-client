@@ -122,7 +122,7 @@ a:hover {
 }
 /* Home End*/
 
-/* Login Start */
+/* Login||Register Start */
 .content {
 	width: 385px;
 	background: #eaf6f667;
@@ -206,3 +206,5 @@ div > a {
 	color: grey;
 	text-decoration: none;
 }
+
+/* Login||Register End */
