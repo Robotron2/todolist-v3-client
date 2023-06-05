@@ -249,6 +249,12 @@ div > a {
 	text-decoration: line-through;
 }
 
+.todoItem {
+	color: #673583;
+	font-size: 1.2rem;
+	position: absolute;
+}
+
 div.checker {
 	width: 18px;
 	height: 18px;
@@ -260,7 +266,7 @@ div.checker span {
 	height: 18px;
 }
 
-div.checker span {
+div.checker p {
 	display: -moz-inline-box;
 	display: inline-block;
 	zoom: 1;
@@ -313,6 +319,10 @@ div.uploader {
 	background: #fff;
 	border-radius: calc(0.15rem - 1px);
 	box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+.purple {
+	color: #673583;
 }
 
 footer {
