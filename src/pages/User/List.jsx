@@ -128,19 +128,6 @@ const List = () => {
 												</>
 											)}
 										</div>
-										{/* {lists.forEach((list) => {
-											return (
-												<form action="/delete" method="post">
-													<div className="checker">
-														<span className="col-lg-6 col-md-3 col-sm-2">
-															<input type="checkbox" name="checkbox" />
-															<input type="hidden" name="userId" />
-														</span>
-													</div>
-													<span>{list.name}</span>
-												</form>
-											)
-										})} */}
 									</div>
 								</div>
 							</div>

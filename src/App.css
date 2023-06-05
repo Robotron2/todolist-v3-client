@@ -19,6 +19,22 @@ body {
 	color: white;
 }
 
+.navbar-toggler,
+.navbar-toggler-icon {
+	color: white !important;
+	background-color: white !important;
+	border: none;
+	outline: none;
+}
+
+.nav-item {
+	font-size: large;
+}
+
+.nav-item a {
+	color: white;
+}
+
 #header {
 	display: flex;
 	justify-content: space-between;
