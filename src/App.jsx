@@ -14,8 +14,8 @@ function App() {
 				<Route path="/register" element={<Register />} />
 				<Route path="/login" element={<Login />} />
 
-				<Route path="/auth/user/" element={<PrivateRoute />}>
-					<Route path="list" element={<List />} />
+				<Route path="/auth/user" element={<PrivateRoute />}>
+					<Route path="" element={<List />} />
 				</Route>
 			</Routes>
 		</>
